@@ -4,13 +4,16 @@ Línea 35 - elemento Input recibe parámetros de tipo carácter y no numéricos 
 solución: modificar input type="text" a input type="number".
 
 Línea 35 - comando Input no especifica el rango de números (1-100) aceptados por el juego
-Solución: añadir al elemento input que contiene con la class guessfield el atributo para el valor mínimo de 1 y el valor máximo de 100.
+Solución: añadir al elemento input que contiene con la class guessField el atributo para el valor mínimo de 1 y el valor máximo de 100.
 
 Línea 44 - el cálculo para el numero aleatorio es generado de 0 a 10, y no de 1 a 100
 Solución: añadir a la formula el metodo math.floor para que aproxime el número y retorne un numero entero, así como modificar el valor de 10 a 100 y sumarle 1 para que se tome el rango correcto.
 
 Línea 46 - límite de intentos es menor a 10
 Solución: modificar el valor de la constante ATTEMPTS de 5 a 10.
+
+Línea 58 - los números ingresado no deben de ir con décimas, esto complicaría el adivinar el numero entero
+Solución: utilizar la función parseInt para convertir el argumento (cadena) y a un entero.
 
 Línea 87 - la sintaxis del evento está mal escrita
 Solución: modificar guessSubmit.addeventListener a guessSubmit.addEventListener
