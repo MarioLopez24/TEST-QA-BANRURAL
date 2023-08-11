@@ -26,3 +26,6 @@ Solución: agregar un punto antes de lowOrHi ( const lowOrHi = document.querySel
 
 Línea 97 - la sintaxis del evento está mal escrita
 Solución: modificar guessSubmit.addeventListener a guessSubmit.addEventListener
+
+Línea 114 - el cálculo para el numero aleatorio no tiene un valor maximo como limite
+Solución: añadir a la formula el producto de Math.random() * 100.
