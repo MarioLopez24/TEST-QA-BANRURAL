@@ -15,6 +15,9 @@ Solución: modificar el valor de la constante ATTEMPTS de 5 a 10.
 Línea 58 - los números ingresado no deben de ir con décimas, esto complicaría el adivinar el numero entero
 Solución: utilizar la función parseInt para convertir el argumento (cadena) y a un entero.
 
+Línea 78 - condicionante if adicional
+Solución: eleminiar la condicionante if con la condicion ya que no es necesaria para el proceso
+
 Línea 87 - la sintaxis del evento está mal escrita
 Solución: modificar guessSubmit.addeventListener a guessSubmit.addEventListener
 
